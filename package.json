@@ -1,0 +1,24 @@
+{
+  "name": "better-auth-express",
+  "description": "A simple express server with better-auth",
+  "author": "isarikaya",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "format": "prettier --write \"**/*.{js,ts,json,md}\""
+  },
+  "dependencies": {
+    "@prisma/client": "^6.7.0",
+    "better-auth": "^1.2.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "prisma": "^6.7.0"
+  }
+}
